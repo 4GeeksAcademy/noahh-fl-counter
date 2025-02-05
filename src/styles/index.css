@@ -1,11 +1,35 @@
-/* 
+/* Container for the counter and title */
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+/* White title above the counter */
+.counter-title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
-*/
+/* Counter box */
+.counter-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Reset button */
+.reset-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
